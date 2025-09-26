@@ -1,17 +1,17 @@
-# first
+# second
 
-A professional mapping platform deployment.
+Deployed mapping platform
 
 ## 🗺️ Live Demo
 
-Visit the live map: [first](https://your-username.github.io/first)
+Visit the live map: [second](https://your-username.github.io/second)
 
 ## 📋 Configuration Summary
 
 - **Map Center**: [144, -37]
-- **Initial Zoom**: 2
+- **Initial Zoom**: 6
 - **Layers**: 1 configured layers
-- **Tools**: 3 enabled tools
+- **Tools**: 4 enabled tools
 - **Theme**: #007bff primary color
 
 ## 🚀 Quick Start

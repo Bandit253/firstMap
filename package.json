@@ -1,5 +1,5 @@
 {
-  "name": "first",
+  "name": "second",
   "version": "1.0.0",
   "description": "Deployed mapping platform",
   "main": "index.html",
@@ -16,9 +16,9 @@
     "mapping",
     "maplibre",
     "gis",
-    "first"
+    "second"
   ],
   "author": "Mapping Platform Deployment System",
   "license": "MIT",
-  "homepage": "https://your-username.github.io/first"
+  "homepage": "https://your-username.github.io/second"
 }

@@ -3,24 +3,24 @@
 ## Quick GitHub Pages Deployment
 
 ### Option 1: New Repository
-1. Create a new repository on GitHub named `first`
+1. Create a new repository on GitHub named `second`
 2. Upload all these files to the repository
 3. Go to Settings → Pages
 4. Select "Deploy from a branch" → "main" → "/ (root)"
-5. Your site will be available at: https://your-username.github.io/first
+5. Your site will be available at: https://your-username.github.io/second
 
 ### Option 2: Using GitHub CLI
 ```bash
-gh repo create first --public
+gh repo create second --public
 git init
 git add .
-git commit -m "Deploy first mapping platform"
+git commit -m "Deploy second mapping platform"
 git branch -M main
-git remote add origin https://github.com/your-username/first.git
+git remote add origin https://github.com/your-username/second.git
 git push -u origin main
 
 # Enable GitHub Pages
-gh api repos/your-username/first/pages \
+gh api repos/your-username/second/pages \
   --method POST \
   --field source='{"branch":"main","path":"/"}'
 ```
